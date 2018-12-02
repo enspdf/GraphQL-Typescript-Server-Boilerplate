@@ -3,7 +3,7 @@
    "version": "0.0.1",
    "description": "Awesome project developed with TypeORM.",
    "devDependencies": {
-      "@types/node": "^10.12.10",
+      "@types/node": "^10.12.11",
       "@types/uuid": "^3.4.4",
       "gql2ts": "^1.10.1",
       "nodemon": "^1.18.7",
