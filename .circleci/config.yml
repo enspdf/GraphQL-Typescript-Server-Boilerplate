@@ -7,6 +7,7 @@ jobs:
         environment:
           POSTGRES_USER: root
           POSTGRES_DB: graphql-ts-server-boilerplate-test
+      - image: circleci/redis:5.0.2
     working_directory: ~/repo
     steps:
       - checkout

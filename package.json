@@ -4,6 +4,7 @@
    "description": "Awesome project developed with TypeORM.",
    "devDependencies": {
       "@types/bcryptjs": "^2.4.2",
+      "@types/ioredis": "^4.0.4",
       "@types/jest": "^23.3.10",
       "@types/node": "^10.12.12",
       "@types/uuid": "^3.4.4",
@@ -13,7 +14,7 @@
       "nodemon": "^1.18.7",
       "start-server-and-test": "^1.7.11",
       "ts-jest": "^23.10.5",
-      "ts-node": "^7.0.1",
+      "ts-node": "6.0.0",
       "tslint": "^5.11.0",
       "tslint-config-prettier": "^1.17.0",
       "typescript": "3.2.1"
@@ -25,9 +26,11 @@
       "graphql-request": "^1.8.2",
       "graphql-tools": "^4.0.3",
       "graphql-yoga": "^1.16.7",
+      "ioredis": "^4.2.0",
       "pg": "^7.7.1",
       "reflect-metadata": "^0.1.12",
       "typeorm": "0.2.9",
+      "uuid": "^3.3.2",
       "yup": "^0.26.6"
    },
    "scripts": {
@@ -38,6 +41,7 @@
       "gen-schema-types": "gql2ts src/schema.graphql -o src/types/schema.d.ts"
    },
    "jest": {
+      "globalSetup": "./src/testSetup/callSetup.js",
       "transform": {
          "^.+\\.tsx?$": "ts-jest"
       },
