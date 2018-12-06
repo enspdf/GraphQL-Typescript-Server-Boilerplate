@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/local/bin/node /usr/local/Cellar/yarn/1.5.1/libexec/bin/yarn.js test
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.5.1/libexec/bin/yarn.js add - D @types/node-fetch
 
 PATH: 
   /Users/sebastianhiguita/flutter/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/sebastianhiguita/.sdkman/candidates/micronaut/current/bin:/Users/sebastianhiguita/flutter/bin:/Users/sebastianhiguita/anaconda3/bin:/Users/sebastianhiguita/Library/Android/sdk/tools:/Users/sebastianhiguita/Library/Android/sdk/platform-tool:/usr/local/mysql/bin:/Users/sebastianhiguita/anaconda3/bin:/Users/sebastianhiguita/Library/Android/sdk/tools:/Users/sebastianhiguita/Library/Android/sdk/platform-tool:/usr/local/mysql/bin
@@ -43,6 +43,7 @@ npm manifest:
         "graphql-tools": "^4.0.3",
         "graphql-yoga": "^1.16.7",
         "ioredis": "^4.2.0",
+        "node-fetch": "^2.3.0",
         "pg": "^7.7.1",
         "reflect-metadata": "^0.1.12",
         "typeorm": "0.2.9",
@@ -3108,6 +3109,10 @@ Lockfile:
     version "2.1.2"
     resolved "http://registry.npmjs.org/node-fetch/-/node-fetch-2.1.2.tgz#ab884e8e7e57e38a944753cec706f788d1768bb5"
   
+  node-fetch@^2.3.0:
+    version "2.3.0"
+    resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.3.0.tgz#1a1d940bbfb916a1d3e0219f037e89e71f8c5fa5"
+  
   node-int64@^0.4.0:
     version "0.4.0"
     resolved "https://registry.yarnpkg.com/node-int64/-/node-int64-0.4.0.tgz#87a9065cdb355d3182d8f94ce11188b825c68a3b"
@@ -4850,16 +4855,14 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/zen-observable/-/zen-observable-0.8.11.tgz#d3415885eeeb42ee5abb9821c95bb518fcd6d199"
 
 Trace: 
-  Error: Command failed.
-  Exit code: 1
-  Command: sh
-  Arguments: -c NODE_ENV=test jest --detectOpenHandles --forceExit
-  Directory: /Users/sebastianhiguita/Desktop/graphql/graphql-ts-server-boilerplate
-  Output:
-  
-      at ProcessTermError.MessageError (/usr/local/Cellar/yarn/1.5.1/libexec/lib/cli.js:186:110)
-      at new ProcessTermError (/usr/local/Cellar/yarn/1.5.1/libexec/lib/cli.js:226:113)
-      at ChildProcess.<anonymous> (/usr/local/Cellar/yarn/1.5.1/libexec/lib/cli.js:30281:17)
-      at ChildProcess.emit (events.js:182:13)
-      at maybeClose (internal/child_process.js:961:16)
-      at Process.ChildProcess._handle.onexit (internal/child_process.js:248:5)
+  Error: https://registry.yarnpkg.com/-: Not found
+      at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/1.5.1/libexec/lib/cli.js:65019:18)
+      at Request.self.callback (/usr/local/Cellar/yarn/1.5.1/libexec/lib/cli.js:132430:22)
+      at Request.emit (events.js:182:13)
+      at Request.<anonymous> (/usr/local/Cellar/yarn/1.5.1/libexec/lib/cli.js:133413:10)
+      at Request.emit (events.js:182:13)
+      at IncomingMessage.<anonymous> (/usr/local/Cellar/yarn/1.5.1/libexec/lib/cli.js:133333:12)
+      at Object.onceWrapper (events.js:273:13)
+      at IncomingMessage.emit (events.js:187:15)
+      at endReadableNT (_stream_readable.js:1081:12)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
