@@ -7,7 +7,5 @@ export default async (
   context: any,
   info: any
 ) => {
-  const result = await resolver(parent, args, context, info);
-
-  return result;
+  return resolver(parent, args, context, info);
 };
