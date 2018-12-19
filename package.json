@@ -9,7 +9,7 @@
       "@types/express-session": "^1.15.11",
       "@types/ioredis": "^4.0.4",
       "@types/jest": "^23.3.10",
-      "@types/node": "^10.12.12",
+      "@types/node": "^10.12.17",
       "@types/node-fetch": "^2.1.4",
       "@types/sparkpost": "^2.1.4",
       "@types/uuid": "^3.4.4",
