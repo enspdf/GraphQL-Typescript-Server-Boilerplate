@@ -65,7 +65,7 @@ npm manifest:
      "scripts": {
         "start": "NODE_ENV=development nodemon --exec ts-node src/index.ts",
         "test-server": "NODE_ENV=test ts-node --files src/index.ts",
-        "test": "NODE_ENV=test jest --files --runInBand --detectOpenHandles --forceExit",
+        "test": "NODE_ENV=test jest --runInBand --detectOpenHandles --forceExit",
         "ci": "start-server-and-test test-server http://localhost:4000 test",
         "gen-schema-types": "ts-node src/scripts/createTypes.ts"
      },
@@ -5019,7 +5019,7 @@ Trace:
   Error: Command failed.
   Exit code: 1
   Command: sh
-  Arguments: -c NODE_ENV=test jest --files --runInBand --detectOpenHandles --forceExit
+  Arguments: -c NODE_ENV=test jest --runInBand --detectOpenHandles --forceExit
   Directory: /Users/sebastianhiguita/Desktop/graphql/graphql-ts-server-boilerplate
   Output:
   
