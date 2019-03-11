@@ -209,9 +209,9 @@
   dependencies:
     "@types/node" "*"
 
-"@types/yup@^0.26.2":
-  version "0.26.2"
-  resolved "https://registry.yarnpkg.com/@types/yup/-/yup-0.26.2.tgz#823f43bfb29cb4fd2af395c3eb8f30929f4e9d53"
+"@types/yup@^0.26.12":
+  version "0.26.12"
+  resolved "https://registry.yarnpkg.com/@types/yup/-/yup-0.26.12.tgz#60fc1a485923a929699d2107fac46e6769707c4a"
 
 "@types/zen-observable@^0.5.3":
   version "0.5.4"
