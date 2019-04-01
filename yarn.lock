@@ -4564,9 +4564,9 @@ typeorm@0.2.9:
     yargonaut "^1.1.2"
     yargs "^11.1.0"
 
-typescript@3.2.1:
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.2.1.tgz#0b7a04b8cf3868188de914d9568bd030f0c56192"
+typescript@3.4.1:
+  version "3.4.1"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.4.1.tgz#b6691be11a881ffa9a05765a205cb7383f3b63c6"
 
 uglify-js@^3.1.4:
   version "3.4.9"
