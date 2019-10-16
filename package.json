@@ -17,7 +17,7 @@
       "@types/yup": "^0.26.2",
       "gql2ts": "^1.10.1",
       "jest": "^23.6.0",
-      "nodemon": "^1.18.7",
+      "nodemon": "^1.19.4",
       "start-server-and-test": "^1.7.11",
       "ts-jest": "^23.10.5",
       "ts-node": "6.0.0",
