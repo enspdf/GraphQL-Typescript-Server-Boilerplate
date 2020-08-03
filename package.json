@@ -14,7 +14,7 @@
       "@types/request-promise": "^4.1.42",
       "@types/sparkpost": "^2.1.4",
       "@types/uuid": "^3.4.4",
-      "@types/yup": "^0.26.2",
+      "@types/yup": "^0.29.4",
       "gql2ts": "^1.10.1",
       "jest": "^23.6.0",
       "nodemon": "^1.18.7",
